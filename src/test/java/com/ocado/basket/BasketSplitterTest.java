@@ -60,7 +60,6 @@ class BasketSplitterTest {
 
         // When
         Map<String, List<String>> actualDeliveryProductMap = this.basketSplitter.split(items);
-        System.out.println(actualDeliveryProductMap);
 
         // Then
         Assertions.assertEquals(expectedDeliveryProductMap, actualDeliveryProductMap);
